@@ -1,0 +1,11 @@
+git config --list : It will list all the configuration parameters
+git config --global user.name <author name> : It will set the author name under whom the versions of git will be created
+git config  --global user.email <author email> : It will set the email of the author for the git changes
+git diff : It shows the difference between the last commited file and the file in the working area
+git diff --staged : It will show the difference between the last commited file and the file in the staging area
+git reset <commit> : this command will undo all commits after the specified commit and preserves the changes in local directory
+git reset --hard <commit> : this command discards all history and goes back to the specified commit
+git restore <filename> : It will help to restore the deleted file from your working area(local directory)
+git ls-files: It will list down all the files which are in the local repository
+git show : It will show the difference between the latest commit file and the current file
+
